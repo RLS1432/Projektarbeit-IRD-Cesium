@@ -39,15 +39,9 @@ viewer.camera.flyTo({
     },
 });
 
-// bereits bestehende Tiles aus Terrain entfernen
-//osmBuildings.show = false;
 
-const layers = {
-    buildings: null,
-    tilesets: []
-};
 
-// Liste deiner Asset-IDs
+// Liste der Asset-IDs
 const assetIds = [4970012, 4970011];
 
 for (const id of assetIds) {
